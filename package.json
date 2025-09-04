@@ -1,0 +1,21 @@
+{
+  "name": "canadymfg",
+  "version": "1.0.0",
+  "description": "Proposed website for Canady Mfg, a SoCal area aerospace company",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thekenpoist/canadymfg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/thekenpoist/canadymfg/issues"
+  },
+  "homepage": "https://github.com/thekenpoist/canadymfg#readme"
+}
