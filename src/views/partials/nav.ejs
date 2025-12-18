@@ -1,0 +1,27 @@
+<header class="border-b">
+  <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+    <div class="font-semibold text-lg">
+      <% if (showHomeLink) { %>
+        <a href="/">Canady Manufacturing Co.</a>
+      <% } else { %>
+        Canady Manufacturing Co.
+      <% } %>
+    </div>
+
+    <!-- Hamburger (mobile) -->
+    <button class="md:hidden" aria-label="Open menu">
+      ☰
+    </button>
+
+    <!-- Desktop nav -->
+    <nav class="hidden md:flex space-x-6 text-sm font-medium">
+      <a href="/capabilities" class="hover:underline">Capabilities</a>
+      <a href="/quality" class="hover:underline">Quality</a>
+      <a href="/about" class="hover:underline">About</a>
+      <a href="/careers" class="hover:underline">Careers</a>
+      <a href="/contact" class="px-4 py-2 border rounded hover:bg-slate-100">
+        Contact / RFQ
+      </a>
+    </nav>
+  </div>
+</header>
