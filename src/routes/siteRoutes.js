@@ -7,7 +7,7 @@ const router = express.Router();
 router.get('/', siteController.getHome);
 router.get('/capabilities', siteController.getCapabilities);
 router.get('/quality', siteController.getQuality);
-router.get('/quality/quality-policy', siteController.getQualityPolicy);
+router.get('/quality-policy', siteController.getQualityPolicy);
 
 
 
