@@ -39,3 +39,10 @@ exports.getTermsConditions = (req, res, next) => {
         showHomeLink: true
     });
 };
+
+exports.getCertifications = (req, res, next) => {
+    res.render('pages/certifications', {
+        pageTitle: 'Certifications',
+        showHomeLink: true
+    });
+};

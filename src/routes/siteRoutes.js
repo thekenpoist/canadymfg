@@ -10,7 +10,7 @@ router.get('/quality', siteController.getQuality);
 router.get('/quality-policy', siteController.getQualityPolicy);
 router.get('/code-of-ethics', siteController.getCodeofEthics);
 router.get('/terms', siteController.getTermsConditions);
-
+router.get('/certifications', siteController.getCertifications);
 
 
 
