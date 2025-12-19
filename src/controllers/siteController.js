@@ -25,3 +25,10 @@ exports.getQualityPolicy = (req, res, next) => {
         showHomeLink: true
     });
 };
+
+exports.getCodeofEthics = (req, res, next) => {
+    res.render('pages/code-of-ethics', {
+        pageTitle: 'Code of Ethics',
+        showHomeLink: true
+    });
+};
