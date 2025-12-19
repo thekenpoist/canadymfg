@@ -9,7 +9,14 @@
     </div>
 
     <!-- Hamburger (mobile) -->
-    <button class="md:hidden" aria-label="Open menu">
+    <button
+      id="navToggle"
+      class="md:hidden px-3 py-2 border rounded"
+      aria-label="Open menu"
+      aria-expanded="false"
+      aria-controls="mobileNav"
+      type="button"
+    >
       ☰
     </button>
 
@@ -24,4 +31,15 @@
       </a>
     </nav>
   </div>
+
+  <!-- Mobile nav panel -->
+  <nav id="mobileNav" class="md:hidden hidden border-t">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col gap-3 text-sm">
+      <a href="/capabilities" class="py-2">Capabilities</a>
+      <a href="/quality" class="py-2">Quality</a>
+      <a href="/about" class="py-2">About</a>
+      <a href="/careers" class="py-2">Careers</a>
+      <a href="/contact" class="py-2 font-semibold">Contact / RFQ</a>
+    </div>
+  </nav>
 </header>
