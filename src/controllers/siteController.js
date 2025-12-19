@@ -32,3 +32,10 @@ exports.getCodeofEthics = (req, res, next) => {
         showHomeLink: true
     });
 };
+
+exports.getTermsConditions = (req, res, next) => {
+    res.render('pages/terms', {
+        pageTitle: 'Terms & Conditions',
+        showHomeLink: true
+    });
+};
