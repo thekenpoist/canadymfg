@@ -18,3 +18,10 @@ exports.getQuality = (req, res, next) => {
         showHomeLink: true
     });
 };
+
+exports.getQualityPolicy = (req, res, next) => {
+    res.render('pages/quality-policy', {
+        pageTitle: 'Quality Policy',
+        showHomeLink: true
+    });
+};
